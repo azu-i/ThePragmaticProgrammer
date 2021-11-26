@@ -12,14 +12,14 @@ body{
     position: relative;
 }
 
-.trianglesArea{
+.triangles{
 	position: relative;
     height: 50px;
 }
 
-.trianglesArea_triangle1,
-.trianglesArea_triangle2,
-.trianglesArea_triangle3{
+.triangles_triangle1,
+.triangles_triangle2,
+.triangles_triangle3{
 	width: 0;
 	height: 0;
 	border-left: 5px solid transparent;
@@ -28,37 +28,37 @@ body{
 	position: absolute;
 }
 
-.trianglesArea_triangle1{
+.triangles_triangle1{
     top: 15px;
     left: 20px;
 }
 
-.trianglesArea_triangle2,
-.trianglesArea_triangle3{
+.triangles_triangle2,
+.triangles_triangle3{
 	transform: rotateX(180deg);
     top: 25px;
 }
 
-.trianglesArea_triangle2{
+.triangles_triangle2{
     left: 13px;
 }
 
-.trianglesArea_triangle3{
+.triangles_triangle3{
     left: 27px;
 }
 
-.titleArea,
-.authorArea,
+.title,
+.author,
 .mainImageArea{
     text-align: center;
 }
 
-.titleArea_title_english{
+.title_title_english{
     font-size: 11px;
     margin: 0;
 }
 
-.titleArea_title_japanese{
+.title_title_japanese{
     margin: 0;
     padding-left: 10px;
     display: inline-block;
@@ -98,23 +98,23 @@ body{
 }
 
 
-.titleArea_title_sub{
+.title_title_sub{
     margin: 0 0 35px 0;
     color: #A09237;
     font-size: 22px;
     font-family: serif;
 }
 
-.authorArea p{
+.author p{
     margin: 0;
     font-size: 12px;
 }
 
-.authorArea{
+.author{
     margin-bottom: 10px;
 }
 
-.authorArea p span{
+.author p span{
     font-size: 8px;
     padding-left: 5px;
 }
